@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 760">
-<defs><radialGradient id="bg" cx="50%" cy="40%"><stop offset="0" stop-color="#25201a"/><stop offset="1" stop-color="#090909"/></radialGradient></defs>
-<rect width="690" height="760" fill="url(#bg)"/><circle cx="345" cy="360" r="245" fill="none" stroke="#d8b34a" stroke-opacity=".12" stroke-width="2"/>
-<g transform="translate(0,15)"><rect x="275" y="205" width="140" height="360" rx="24" fill="#24352d" stroke="#d8b34a" stroke-width="3"/><rect x="300" y="160" width="90" height="60" rx="10" fill="#111"/><path d="M305 395q40-70 80 0q-40 70-80 0Z" fill="#d8b34a"/></g>
-<text x="345" y="650" fill="#f5f0e6" text-anchor="middle" font-family="Georgia,serif" font-size="30" font-weight="700">Gel de Linaza</text>
-<text x="345" y="685" fill="#d8b34a" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">FIJACIÓN FLEXIBLE</text>
-<text x="345" y="720" fill="#777" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">BLACK STORE · COLOMBIA</text>
-</svg>
