@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 760">
+<defs><radialGradient id="bg" cx="50%" cy="40%"><stop offset="0" stop-color="#25201a"/><stop offset="1" stop-color="#090909"/></radialGradient></defs>
+<rect width="690" height="760" fill="url(#bg)"/><circle cx="345" cy="360" r="245" fill="none" stroke="#d8b34a" stroke-opacity=".12" stroke-width="2"/>
+<g transform="translate(0,15)"><path d="M225 465q0-220 120-245q120 25 120 245q-55 65-120 0q-65 65-120 0Z" fill="#5b2e50" stroke="#d8b34a" stroke-width="4"/><path d="M245 420q100-105 200 0" fill="none" stroke="#d8b34a" stroke-width="18"/><circle cx="345" cy="330" r="35" fill="#f2d77c"/></g>
+<text x="345" y="650" fill="#f5f0e6" text-anchor="middle" font-family="Georgia,serif" font-size="30" font-weight="700">Turbante Afro</text>
+<text x="345" y="685" fill="#d8b34a" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" letter-spacing="3">ESTILO VERSÁTIL</text>
+<text x="345" y="720" fill="#777" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">BLACK STORE · COLOMBIA</text>
+</svg>
