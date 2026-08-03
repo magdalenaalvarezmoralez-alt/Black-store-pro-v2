@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Black Store Colombia — belleza, cabello afro, moda y accesorios con identidad. Compra fácil por WhatsApp.">
+  <meta name="theme-color" content="#080808">
+  <title>Black Store | Belleza, Moda y Cultura Afro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="topbar"><p>🇨🇴 Envíos a toda Colombia · Atención personalizada por WhatsApp · Catálogo Black Store</p></div>
+
+  <header class="site-header" id="inicio">
+    <a class="logo" href="#inicio" aria-label="Black Store, inicio"><img src="logo-black-store.png" alt="Black Store"></a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a><a href="#categorias">Categorías</a><a href="#productos">Productos</a><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a>
+    </nav>
+    <div class="header-actions">
+      <button class="cart-button" id="cartOpen" type="button" aria-label="Abrir carrito">🛒 <b id="cartCount">0</b></button>
+      <a class="header-cta" href="#productos">Ver colección</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Belleza · Cultura · Identidad</p>
+        <h1>Tu esencia.<br><span>Tu estilo.</span><br>Tu cultura.</h1>
+        <p class="hero-text">Descubre una colección pensada para celebrar el cabello afro, la belleza, la moda y los accesorios con orgullo, estilo y autenticidad.</p>
+        <div class="hero-actions"><a class="button primary" href="#productos">Comprar ahora <span>→</span></a><a class="text-link" href="#categorias">Explorar categorías</a></div>
+        <div class="hero-trust"><span>✦</span><div><strong>Black Store Colombia</strong><small>Estilo con identidad · Compra por WhatsApp</small></div></div>
+      </div>
+      <div class="hero-visual" aria-label="Colección Black Store">
+        <div class="hero-glow"></div>
+        <div class="hero-grid">
+          <figure class="hero-photo photo-large"><img src="images/kit-cuidado-afro.jpeg" alt="Kit de cuidado afro"></figure>
+          <figure class="hero-photo"><img src="images/turbante-afro.jpeg" alt="Turbante afro"></figure>
+          <figure class="hero-photo"><img src="images/camiseta-raices.jpeg" alt="Camiseta Raíces"></figure>
+          <figure class="hero-photo"><img src="images/aretes-afro.jpeg" alt="Aretes afro"></figure>
+        </div>
+        <div class="floating-badge">AFRO<br><span>CON ORGULLO</span></div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Valores de Black Store">
+      <span>RAÍCES</span><i>✦</i><span>IDENTIDAD</span><i>✦</i><span>ESTILO</span><i>✦</i><span>ORGULLO</span><i>✦</i><span>BELLEZA</span>
+    </section>
+
+    <section id="categorias" class="section categories">
+      <div class="section-heading"><div><p class="eyebrow">Encuentra tu estilo</p><h2>Explora nuestras <em>categorías</em></h2></div><p>Una colección amplia para cuidar, vestir y expresar tu identidad.</p></div>
+      <div class="category-grid">
+        <a class="category-card category-tall" href="#productos" data-filter-link="Cabello">
+          <img src="images/cabello-afro.jpeg" alt="Cuidado y cabello afro"><div class="category-overlay"><span>01</span><h3>Cuidado Afro</h3><p>Rizos, texturas y cuidado natural.</p><b>Ver productos →</b></div>
+        </a>
+        <a class="category-card" href="#productos" data-filter-link="Belleza">
+          <img src="images/producto-belleza.jpeg" alt="Belleza afro"><div class="category-overlay"><span>02</span><h3>Belleza</h3><p>Resalta lo que te hace única.</p><b>Ver productos →</b></div>
+        </a>
+        <a class="category-card" href="#productos" data-filter-link="Moda Afro">
+          <img src="images/moda-afro.jpeg" alt="Moda afro"><div class="category-overlay"><span>03</span><h3>Moda Afro</h3><p>Prendas con identidad y actitud.</p><b>Ver productos →</b></div>
+        </a>
+        <a class="category-card" href="#productos" data-filter-link="Accesorios">
+          <img src="images/accesorios.jpeg" alt="Accesorios afro"><div class="category-overlay"><span>04</span><h3>Accesorios</h3><p>Detalles que cuentan tu historia.</p><b>Ver productos →</b></div>
+        </a>
+      </div>
+    </section>
+
+    <section id="productos" class="section products-section">
+      <div class="section-heading centered">
+        <p class="eyebrow">Colección Black Store</p><h2>Compra por <em>categoría</em></h2>
+        <p>Explora el catálogo, agrega productos al carrito y envía tu pedido completo por WhatsApp.</p>
+      </div>
+      <div class="shop-toolbar">
+        <div class="filter-group" role="group" aria-label="Filtrar productos">
+          <button class="filter active" type="button" data-filter="Todos">Todos</button>
+          <button class="filter" type="button" data-filter="Cabello">Cabello</button>
+          <button class="filter" type="button" data-filter="Belleza">Belleza</button>
+          <button class="filter" type="button" data-filter="Moda Afro">Moda</button>
+          <button class="filter" type="button" data-filter="Accesorios">Accesorios</button>
+        </div>
+        <label class="search-box">⌕ <input id="productSearch" type="search" placeholder="Buscar producto..." aria-label="Buscar producto"></label>
+      </div>
+      <div class="products-grid" id="productsGrid">
+        <article class="product-card" data-category="Cuidado Afro">
+          <div class="product-image-wrap">
+            <span class="tag">DESTACADO</span>
+            <img src="images/kit-cuidado-afro.jpeg" alt="Kit Cuidado Afro" loading="lazy">
+            <button class="heart-button" type="button" aria-label="Agregar Kit Cuidado Afro a favoritos" aria-pressed="false">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Cuidado Afro</p>
+            <h3>Kit Cuidado Afro</h3>
+            <div class="product-bottom">
+              <strong>$80.000 <small>COP</small></strong>
+              <button class="buy-button" type="button" data-product="Kit Cuidado Afro" data-price="$80.000">Agregar <span>+</span></button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="Cabello">
+          <div class="product-image-wrap">
+            <span class="tag">NATURAL</span>
+            <img src="images/aceite-ricino.jpeg" alt="Aceite de Ricino" loading="lazy">
+            <button class="heart-button" type="button" aria-label="Agregar Aceite de Ricino a favoritos" aria-pressed="false">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Cabello</p>
+            <h3>Aceite de Ricino</h3>
+            <div class="product-bottom">
+              <strong>$35.000 <small>COP</small></strong>
+              <button class="buy-button" type="button" data-product="Aceite de Ricino" data-price="$35.000">Agregar <span>+</span></button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="Cabello">
+          <div class="product-image-wrap">
+            <span class="tag">RIZOS</span>
+            <img src="images/crema-rizos.jpeg" alt="Crema Definidora de Rizos" loading="lazy">
+            <button class="heart-button" type="button" aria-label="Agregar Crema Definidora de Rizos a favoritos" aria-pressed="false">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Cabello</p>
+            <h3>Crema Definidora de Rizos</h3>
+            <div class="product-bottom">
+              <strong>$45.000 <small>COP</small></strong>
+              <button class="buy-button" type="button" data-product="Crema Definidora de Rizos" data-price="$45.000">Agregar <span>+</span></button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="Cabello">
+          <div class="product-image-wrap">
+            <span class="tag">NATURAL</span>
+            <img src="images/gel-linaza.jpeg" alt="Gel de Linaza" loading="lazy">
+            <button class="heart-button" type="button" aria-label="Agregar Gel de Linaza a favoritos" aria-pressed="false">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Cabello</p>
+            <h3>Gel de Linaza</h3>
+            <div class="product-bottom">
+              <strong>$28.000 <small>COP</small></strong>
+              <button class="buy-button" type="button" data-product="Gel de Linaza" data-price="$28.000">Agregar <span>+</span></button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="Belleza">
+          <div class="product-image-wrap">
+            <span class="tag">NUEVO</span>
+            <img src="images/mascarilla-cacao.jpeg" alt="Mascarilla Cacao & Karité" loading="lazy">
+            <button class="heart-button" type="button" aria-label="Agregar Mascarilla Cacao & Karité a favoritos" aria-pressed="false">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Belleza</p>
+            <h3>Mascarilla Cacao & Karité</h3>
+            <div class="product-bottom">
+              <strong>$42.000 <small>COP</small></strong>
+              <button class="buy-button" type="button" data-product="Mascarilla Cacao & Karité" data-price="$42.000">Agregar <span>+</span></button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="Belleza">
+          <div class="product-image-wrap">
+            <span class="tag">TOP</span>
+            <img src="images/manteca-karite.jpeg" alt="Manteca de Karité" loading="lazy">
+            <button class="heart-button" type="button" aria-label="Agregar Manteca de Karité a favoritos" aria-pressed="false">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Belleza</p>
+            <h3>Manteca de Karité</h3>
+            <div class="product-bottom">
+              <strong>$30.000 <small>COP</small></strong>
+              <button class="buy-button" type="button" data-product="Manteca de Karité" data-price="$30.000">Agregar <span>+</span></button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="Moda Afro">
+          <div class="product-image-wrap">
+            <span class="tag">ESTILO</span>
+            <img src="images/camisa-black-style.jpeg" alt="Camisa Black Style" loading="lazy">
+            <button class="heart-button" type="button" aria-label="Agregar Camisa Black Style a favoritos" aria-pressed="false">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Moda Afro</p>
+            <h3>Camisa Black Style</h3>
+            <div class="product-bottom">
+              <strong>$70.000 <small>COP</small></strong>
+              <button class="buy-button" type="button" data-product="Camisa Black Style" data-price="$70.000">Agregar <span>+</span></button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="Moda Afro">
+          <div class="product-image-wrap">
+            <span class="tag">NUEVO</span>
+            <img src="images/camiseta-raices.jpeg" alt="Camiseta Raíces" loading="lazy">
+            <button class="heart-button" type="button" aria-label="Agregar Camiseta Raíces a favoritos" aria-pressed="false">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Moda Afro</p>
+            <h3>Camiseta Raíces</h3>
+            <div class="product-bottom">
+              <strong>$65.000 <small>COP</small></strong>
+              <button class="buy-button" type="button" data-product="Camiseta Raíces" data-price="$65.000">Agregar <span>+</span></button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="Accesorios">
+          <div class="product-image-wrap">
+            <span class="tag">TENDENCIA</span>
+            <img src="images/turbante-afro.jpeg" alt="Turbante Afro" loading="lazy">
+            <button class="heart-button" type="button" aria-label="Agregar Turbante Afro a favoritos" aria-pressed="false">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Accesorios</p>
+            <h3>Turbante Afro</h3>
+            <div class="product-bottom">
+              <strong>$38.000 <small>COP</small></strong>
+              <button class="buy-button" type="button" data-product="Turbante Afro" data-price="$38.000">Agregar <span>+</span></button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="Accesorios">
+          <div class="product-image-wrap">
+            <span class="tag">DETALLE</span>
+            <img src="images/aretes-afro.jpeg" alt="Aretes Afro Dorados" loading="lazy">
+            <button class="heart-button" type="button" aria-label="Agregar Aretes Afro Dorados a favoritos" aria-pressed="false">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Accesorios</p>
+            <h3>Aretes Afro Dorados</h3>
+            <div class="product-bottom">
+              <strong>$32.000 <small>COP</small></strong>
+              <button class="buy-button" type="button" data-product="Aretes Afro Dorados" data-price="$32.000">Agregar <span>+</span></button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="Accesorios">
+          <div class="product-image-wrap">
+            <span class="tag">ARTESANAL</span>
+            <img src="images/collar-raices.jpeg" alt="Collar Raíces" loading="lazy">
+            <button class="heart-button" type="button" aria-label="Agregar Collar Raíces a favoritos" aria-pressed="false">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Accesorios</p>
+            <h3>Collar Raíces</h3>
+            <div class="product-bottom">
+              <strong>$48.000 <small>COP</small></strong>
+              <button class="buy-button" type="button" data-product="Collar Raíces" data-price="$48.000">Agregar <span>+</span></button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card" data-category="Accesorios">
+          <div class="product-image-wrap">
+            <span class="tag">CLÁSICO</span>
+            <img src="images/peineta-afro.jpeg" alt="Peineta Afro" loading="lazy">
+            <button class="heart-button" type="button" aria-label="Agregar Peineta Afro a favoritos" aria-pressed="false">♡</button>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Accesorios</p>
+            <h3>Peineta Afro</h3>
+            <div class="product-bottom">
+              <strong>$25.000 <small>COP</small></strong>
+              <button class="buy-button" type="button" data-product="Peineta Afro" data-price="$25.000">Agregar <span>+</span></button>
+            </div>
+          </div>
+        </article></div>
+      <p class="empty-state" id="emptyState" hidden>No encontramos productos con esa búsqueda.</p>
+    </section>
+
+    <section class="benefits">
+      <div class="benefit"><span class="benefit-icon">✦</span><div><h3>Envíos a Colombia</h3><p>Llevamos tu estilo a cualquier rincón del país.</p></div></div>
+      <div class="benefit"><span class="benefit-icon">◆</span><div><h3>Identidad Afro</h3><p>Una tienda creada para celebrar nuestras raíces.</p></div></div>
+      <div class="benefit"><span class="benefit-icon">◉</span><div><h3>Compra fácil</h3><p>Arma tu pedido y confírmalo directamente por WhatsApp.</p></div></div>
+    </section>
+
+    <section id="nosotros" class="about section">
+      <div class="about-image"><img src="images/moda-afro.jpeg" alt="Estilo y cultura afro" loading="lazy"><span>BLACK<br>STORE</span></div>
+      <div class="about-copy"><p class="eyebrow">Más que una tienda</p><h2>Viste tu historia.<br><em>Vive tu identidad.</em></h2>
+        <p>Black Store reúne belleza, cuidado, moda y accesorios alrededor de una idea sencilla: celebrar nuestra identidad afro con orgullo, estilo y autenticidad.</p>
+        <div class="about-points"><span>✓ Catálogo variado</span><span>✓ Atención personalizada</span><span>✓ Pedidos por WhatsApp</span></div>
+        <a class="button secondary" href="#contacto">Conoce más <span>→</span></a>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact">
+      <div class="contact-copy"><p class="eyebrow">¿Listo para comprar?</p><h2>Hablemos por <em>WhatsApp.</em></h2><p>Pregunta por disponibilidad, tallas, productos y envíos.</p></div>
+      <a class="button primary whatsapp-contact" href="#" target="_blank" rel="noopener">Escríbenos ahora <span>→</span></a>
+    </section>
+  </main>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="cart-head"><div><p class="eyebrow">Tu selección</p><h2>Carrito</h2></div><button id="cartClose" type="button" aria-label="Cerrar carrito">×</button></div>
+    <div class="cart-items" id="cartItems"><p class="cart-empty">Tu carrito está vacío.<br><small>Agrega productos de la colección.</small></p></div>
+    <div class="cart-footer"><div class="cart-total"><span>Total estimado</span><strong id="cartTotal">$0 COP</strong></div><button class="button primary full" id="checkoutButton" type="button">Pedir por WhatsApp <span>→</span></button><button class="clear-cart" id="clearCart" type="button">Vaciar carrito</button></div>
+  </aside>
+  <div class="cart-overlay" id="cartOverlay"></div>
+
+  <footer>
+    <div class="footer-main"><a class="logo" href="#inicio"><img src="logo-black-store.png" alt="Black Store"></a><p>Belleza · Cultura · Identidad</p><a class="footer-whatsapp" href="#" target="_blank" rel="noopener">WhatsApp →</a></div>
+    <div class="footer-bottom"><span>© 2026 Black Store Colombia</span><span>Hecho con orgullo afro 🖤</span></div>
+  </footer>
+  <a class="floating-whatsapp" href="#" target="_blank" rel="noopener" aria-label="Contactar Black Store por WhatsApp">✆</a>
+</body>
+</html>
